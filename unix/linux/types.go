@@ -1411,6 +1411,15 @@ const (
 	IFLA_GSO_MAX_SIZE                          = C.IFLA_GSO_MAX_SIZE
 	IFLA_PAD                                   = C.IFLA_PAD
 	IFLA_XDP                                   = C.IFLA_XDP
+	IFLA_XDP_UNSPEC                            = C.IFLA_XDP_UNSPEC
+	IFLA_XDP_FD                                = C.IFLA_XDP_FD
+	IFLA_XDP_ATTACHED                          = C.IFLA_XDP_ATTACHED
+	IFLA_XDP_FLAGS                             = C.IFLA_XDP_FLAGS
+	IFLA_XDP_PROG_ID                           = C.IFLA_XDP_PROG_ID
+	IFLA_XDP_DRV_PROG_ID                       = C.IFLA_XDP_DRV_PROG_ID
+	IFLA_XDP_SKB_PROG_ID                       = C.IFLA_XDP_SKB_PROG_ID
+	IFLA_XDP_HW_PROG_ID                        = C.IFLA_XDP_HW_PROG_ID
+	IFLA_XDP_EXPECTED_FD                       = C.IFLA_XDP_EXPECTED_FD
 	IFLA_EVENT                                 = C.IFLA_EVENT
 	IFLA_NEW_NETNSID                           = C.IFLA_NEW_NETNSID
 	IFLA_IF_NETNSID                            = C.IFLA_IF_NETNSID
