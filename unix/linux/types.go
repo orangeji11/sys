@@ -3871,3 +3871,7 @@ const (
 	SHM_RDONLY = C.SHM_RDONLY
 	SHM_RND    = C.SHM_RND
 )
+
+// mount_setattr
+
+type MountAttr C.struct_mount_attr
