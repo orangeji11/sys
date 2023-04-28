@@ -244,6 +244,7 @@ const (
 
 	// add by tianlj
 	SYS_PIDFD_OPEN  = 281
+	SYS_OPENAT2     = 284
 	SYS_PIDFD_GETFD = 285
 	// end add
 
