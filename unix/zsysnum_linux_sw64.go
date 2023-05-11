@@ -246,6 +246,7 @@ const (
 	SYS_PIDFD_OPEN  = 281
 	SYS_OPENAT2     = 284
 	SYS_PIDFD_GETFD = 285
+	SYS_FACCESSAT2  = 286
 	// end add
 
 	SYS_BDFLUSH                = 300
